@@ -1,1 +1,1 @@
-This contact form send message entered by user from the web form directly to your email id
+This contact form send message entered by user from the web form directly to your email box using emailjs
