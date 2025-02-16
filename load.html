@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading.....</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="main2.css" />
+    <script src="https://kit.fontawesome.com/649aa51483.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+</head>
+
+<body>
+
+    <main class="loader">
+        <div id="container">
+            <div class="loadingspinner">
+                <div id="square1"></div>
+                <div id="square2"></div>
+                <div id="square3"></div>
+                <div id="square4"></div>
+                <div id="square5"></div>
+            </div>
+        </div>
+
+        <footer class="footer bg-light">
+            <div class="container-footer">
+            </div>
+        </footer>
+    </main>
+
+
+
+    <script>
+        // JavaScript for the page loader
+        setTimeout(function () {
+            try {
+                window.location.href = "dashboard.html";
+            } catch (error) {
+                console.error("An error occurred while redirecting to the dashboard:", error);
+                // Handle the error here, e.g., display an error message to the user
+            }
+        }, 5000);
+    </script>
+    <script src="main.js"></script>
+</body>
+
+</html>
